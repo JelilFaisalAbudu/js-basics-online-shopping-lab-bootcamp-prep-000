@@ -69,7 +69,11 @@ function removeFromCart(item) {
   
 }
 
-function placeOrder(cardNumber = '') {
+function placeOrder(cardNumber) {
   // write your code here
+  
+  if (cardNumber === undefined || cardNumber.length === 0) {
+    return
+  }
   
 }
